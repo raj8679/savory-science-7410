@@ -11,6 +11,8 @@ import {
     Stack,
     Radio,
     Button,
+    Box,
+    Text,
 
   } from '@chakra-ui/react'
 
@@ -37,10 +39,25 @@ import {
         <Drawer placement={placement} onClose={onClose} isOpen={isOpen} size="lg">
           <DrawerOverlay />
           <DrawerContent>
-            <DrawerHeader borderBottomWidth='1px'>Basic Drawer</DrawerHeader>
+            
             <DrawerBody>
-             
+            <Box >
+             <Text fontSize="xl" fontWeight="bold">By Team</Text>
+              <Text fontSize="lg">See how Teams of all stripes and sizes use Airtable</Text>
+              </Box>
+              <Box marginTop="20px">
+             <Text fontSize="xl" fontWeight="bold">By Use Case</Text>
+              <Text fontSize="lg">Get inspired by usecases that will that will make you fall with Airtable</Text>
+              </Box>
+              <Box marginTop="20px">
+             <Text fontSize="xl" fontWeight="bold">By Team</Text>
+              <Text fontSize="lg">See how Teams of all stripes and sizes use Airtable</Text>
+              </Box>
+              <Box marginTop="20px" fontSize="xl" fontWeight="bold">See all solutions</Box>
             </DrawerBody>
+            <DrawerFooter>
+            
+            </DrawerFooter>
           </DrawerContent>
         </Drawer>
       </>
