@@ -56,6 +56,20 @@ import {
               <Box marginTop="20px" fontSize="xl" fontWeight="bold">See all solutions</Box>
             </DrawerBody>
             <DrawerFooter>
+           
+              <Box bg="#ecf9ec" w="100%" h="200px">
+                <Text marginTop="30px" marginLeft="20px" fontSize="xl" fontWeight="bold">Most popular templates</Text>
+                <div style={{width:"100%",height:"50px",display:"flex",justifyContent:"space-around",fontWeight:"bold"}}>
+                  <div>Content Operations</div>
+                  <div>Marketing Campaign Tracker</div>   
+                </div>
+                <div style={{width:"100%",height:"50px",display:"flex",justifyContent:"space-around",fontWeight:"bold"}}>
+                <div>Product Roadmap</div>
+                  <div>org chat</div>
+                  </div>
+                <Text  marginLeft="20px" color="#66cc66">Explore All Templates</Text>
+
+              </Box>
             
             </DrawerFooter>
           </DrawerContent>
